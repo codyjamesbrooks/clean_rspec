@@ -2,7 +2,7 @@ require "spec_helper"
 require "./lib/gilded_rose"
 
 RSpec.describe GildedRose do
-  let(:name) { 'Normal Item' }
+  let(:subject) { GildedRose.new }
 
   it "is a gilded rose" do
     expect(subject).to be_a(GildedRose)
